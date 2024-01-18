@@ -5,6 +5,8 @@ import nltk
 from nltk.stem.porter import PorterStemmer
 import string
 
+nltk.download('punkt')
+
 ps = PorterStemmer()
 
 def transform_text(text):
